@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Event Organizer</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Event Organizer</h1>
+    <form id="eventForm">
+      <input type="text" id="name" placeholder="Event Name" required />
+      <input type="date" id="date" required />
+      <input type="text" id="location" placeholder="Location" required />
+      <textarea id="description" placeholder="Description" required></textarea>
+      <button type="submit">Add Event</button>
+    </form>
+    <div id="events"></div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
